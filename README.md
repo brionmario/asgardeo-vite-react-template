@@ -70,9 +70,10 @@ npx tmplr --dir my-vite-react-app asgardeo/asgardeo-vite-react-template
 
 2. Input the necessary details when you are prompted in the CLI.
 
-3. Install the dependencies.
+3. Install the dependencies by running the following command from the root directory.
 
 ```bash
+cd my-vite-react-app 
 npm install
 ```
 
