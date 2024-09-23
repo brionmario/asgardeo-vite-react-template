@@ -4,7 +4,7 @@ import { useAuthContext } from "@asgardeo/auth-react";
 
 import reactLogo from "../assets/react.svg";
 import asgardeoLogo from "../assets/asgardeo.svg";
-import viteLogo from "../assets/vite.svg";
+import viteLogo from "/vite.svg";
 
 import { SignInBtn } from "../components/SignInBtn";
 
