@@ -8,7 +8,7 @@ import viteLogo from "/vite.svg";
 
 import { SignInBtn } from "../components/SignInBtn";
 
-export const LoginPage = () => { 
+export const LandingPage = () => { 
 
     const { state } = useAuthContext();
     const navigate = useNavigate();
