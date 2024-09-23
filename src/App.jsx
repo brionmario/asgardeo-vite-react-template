@@ -1,3 +1,4 @@
+import "./App.css";
 import { createBrowserRouter, RouterProvider, Navigate } from "react-router-dom";
 import { AuthenticatedComponent } from "@asgardeo/auth-react";
 import { LandingPage } from "./pages/LandingPage";
