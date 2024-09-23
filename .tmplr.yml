@@ -1,0 +1,24 @@
+steps:
+  - read: package_name
+    prompt: "Please enter a package name for your app (e.g., my-vite-app):"
+    fallback: "my-vite-app"
+
+  - read: version
+    prompt: "Please enter the version for your app (default: 1.0.0):"
+    fallback: "1.0.0"
+
+  - read: author
+    prompt: "Please enter the author's name:"
+    fallback: "WSO2" 
+
+  - read: asgardeo_clientID
+    prompt: "Please enter your Asgardeo Client ID:"
+    fallback: "asgardeoClientID"
+
+  - read: asgardeo_org_name
+    prompt: "Please enter your Asgardeo Organization name:"
+    fallback: "asgardeoOrgName"
+  
+  - update: template/package.json
+  - update: template/src/main.jsx
+  - remove: .tmplr.yml
