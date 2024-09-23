@@ -19,6 +19,6 @@ steps:
     prompt: "Please enter your Asgardeo Organization name:"
     fallback: "asgardeoOrgName"
   
-  - update: template/package.json
-  - update: template/src/main.jsx
+  - update: package.json
+  - update: src/main.jsx
   - remove: .tmplr.yml
