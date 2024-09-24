@@ -21,4 +21,9 @@ steps:
   
   - update: package.json
   - update: src/main.jsx
+  
+  - remove: LICENSE
+  - remove: README.md
+  - remove: issue_template.md
+  - remove: pull_request_template.md
   - remove: .tmplr.yml
